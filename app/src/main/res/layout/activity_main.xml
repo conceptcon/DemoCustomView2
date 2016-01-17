@@ -18,7 +18,7 @@
         android:id="@+id/btn_porter_duff_color_filter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Lighting Color Filter" />
+        android:text="PORTER DUFF COLOR FILTER" />
 
     <com.example.leeyou.democustomview2.CustomCircleView
         android:layout_width="match_parent"
