@@ -28,5 +28,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, PorterDuffColorFilterActivity.class));
             }
         });
+
+        Button btn_porter_duff_xfermode = (Button) findViewById(R.id.btn_porter_duff_xfermode);
+        btn_porter_duff_xfermode.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, PorterDuffXfermodeActivity.class));
+            }
+        });
     }
 }
