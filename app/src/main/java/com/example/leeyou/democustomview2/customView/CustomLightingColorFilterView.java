@@ -1,4 +1,4 @@
-package com.example.leeyou.democustomview2;
+package com.example.leeyou.democustomview2.customView;
 
 import android.app.Activity;
 import android.content.Context;
@@ -10,6 +10,9 @@ import android.graphics.LightingColorFilter;
 import android.graphics.Paint;
 import android.util.AttributeSet;
 import android.view.View;
+
+import com.example.leeyou.democustomview2.util.MeasureUtil;
+import com.example.leeyou.democustomview2.R;
 
 public class CustomLightingColorFilterView extends View {
     private Paint mPaint;

@@ -1,4 +1,4 @@
-package com.example.leeyou.democustomview2;
+package com.example.leeyou.democustomview2.customView;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
@@ -11,6 +11,9 @@ import android.graphics.PorterDuffXfermode;
 import android.os.Build;
 import android.util.AttributeSet;
 import android.view.View;
+
+import com.example.leeyou.democustomview2.util.MeasureUtil;
+import com.example.leeyou.democustomview2.engine.PorterDuffBO;
 
 @TargetApi(Build.VERSION_CODES.HONEYCOMB)
 public class PorterDuffView extends View {

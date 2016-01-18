@@ -1,4 +1,4 @@
-package com.example.leeyou.democustomview2;
+package com.example.leeyou.democustomview2.util;
 
 import android.app.Activity;
 import android.util.DisplayMetrics;
