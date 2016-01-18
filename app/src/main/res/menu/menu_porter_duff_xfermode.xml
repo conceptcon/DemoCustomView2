@@ -2,6 +2,94 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.example.leeyou.democustomview2.PorterDuffXfermodeActivity">
-    <item android:id="@+id/action_settings" android:title="@string/action_settings"
-        android:orderInCategory="100" app:showAsAction="never" />
+    <item
+        android:id="@+id/action_darken"
+        android:orderInCategory="100"
+        android:title="darken"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_lighten"
+        android:orderInCategory="100"
+        android:title="lighten"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_multiply"
+        android:orderInCategory="100"
+        android:title="multiply"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_screen"
+        android:orderInCategory="100"
+        android:title="screen"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_dst"
+        android:orderInCategory="100"
+        android:title="dst"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_dst_in"
+        android:orderInCategory="100"
+        android:title="dst_in"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_dst_out"
+        android:orderInCategory="100"
+        android:title="dst_out"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_dst_over"
+        android:orderInCategory="100"
+        android:title="dst_over"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_src"
+        android:orderInCategory="100"
+        android:title="src"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_src_in"
+        android:orderInCategory="100"
+        android:title="src_in"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_src_out"
+        android:orderInCategory="100"
+        android:title="src_out"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_src_over"
+        android:orderInCategory="100"
+        android:title="src_over"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_dst_atop"
+        android:orderInCategory="100"
+        android:title="dst_atop"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_src_atop"
+        android:orderInCategory="100"
+        android:title="src_atop"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_add"
+        android:orderInCategory="100"
+        android:title="add"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_overlay"
+        android:orderInCategory="100"
+        android:title="overlay"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_xor"
+        android:orderInCategory="100"
+        android:title="xor"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_clear"
+        android:orderInCategory="100"
+        android:title="clear"
+        app:showAsAction="never" />
 </menu>

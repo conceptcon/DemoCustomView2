@@ -12,8 +12,8 @@ import android.os.Build;
 import android.util.AttributeSet;
 import android.view.View;
 
-import com.example.leeyou.democustomview2.util.MeasureUtil;
 import com.example.leeyou.democustomview2.engine.PorterDuffBO;
+import com.example.leeyou.democustomview2.util.MeasureUtil;
 
 @TargetApi(Build.VERSION_CODES.HONEYCOMB)
 public class PorterDuffView extends View {
@@ -61,7 +61,8 @@ public class PorterDuffView extends View {
         d_t = 0;
 
         rectX = ScreenW / 2 - RECT_SIZE_BIG / 2;
-        rectY = RECT_SIZE_SMALL + (ScreenH - RECT_SIZE_SMALL) / 2 - RECT_SIZE_BIG / 2;
+//        rectY = RECT_SIZE_SMALL + (ScreenH - RECT_SIZE_SMALL) / 2 - RECT_SIZE_BIG / 2;
+        rectY = RECT_SIZE_SMALL + 50;
     }
 
     public PorterDuffView(Context context, AttributeSet attrs, int defStyleAttr) {
