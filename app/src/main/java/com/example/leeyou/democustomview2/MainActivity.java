@@ -36,5 +36,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, PorterDuffXfermodeActivity.class));
             }
         });
+
+        Button btn_dst_in_exercise = (Button) findViewById(R.id.btn_dst_in_exercise);
+        btn_dst_in_exercise.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, DST_IN_Activity.class));
+            }
+        });
+
     }
 }
