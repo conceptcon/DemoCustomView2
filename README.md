@@ -21,6 +21,7 @@ mPaint.setColorFilter(new PorterDuffColorFilter(Color.RED, PorterDuff.Mode.DARKE
 ###PorterDuffXfermode效果图
 ![porterduffxfermode](https://github.com/LeeeYou/DemoCustomView2/blob/master/porterduffxfermode.png)
 
+---
 
 ###DST_IN美女练习
 
