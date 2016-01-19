@@ -5,7 +5,6 @@ import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
-import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.PorterDuff;
 import android.graphics.PorterDuffXfermode;
@@ -15,22 +14,22 @@ import android.view.View;
 import com.example.leeyou.democustomview2.R;
 import com.example.leeyou.democustomview2.util.MeasureUtil;
 
-public class DisInView extends View {
+public class DstOutView extends View {
     private Paint mPaint;
-    private Bitmap bitmapDis, bitmapSrc;
+    private Bitmap bitmapSrc;
     private PorterDuffXfermode porterDuffXfermode;
 
     private int x, y;
     private int screenW, screenH;
 
-    public DisInView(Context context) {
+    public DstOutView(Context context) {
         super(context);
     }
 
-    public DisInView(Context context, AttributeSet attrs) {
+    public DstOutView(Context context, AttributeSet attrs) {
         super(context, attrs);
 
-        porterDuffXfermode = new PorterDuffXfermode(PorterDuff.Mode.DST_IN);
+        porterDuffXfermode = new PorterDuffXfermode(PorterDuff.Mode.DST_OUT);
 
         initPaint();
 
@@ -38,7 +37,6 @@ public class DisInView extends View {
     }
 
     private void initRes(Context context) {
-        bitmapDis = BitmapFactory.decodeResource(context.getResources(), R.mipmap.a3);
         bitmapSrc = BitmapFactory.decodeResource(context.getResources(), R.mipmap.a3_mask);
 
         int[] screenSize = MeasureUtil.getScreenSize((Activity) context);
@@ -46,26 +44,26 @@ public class DisInView extends View {
         screenW = screenSize[0];
         screenH = screenSize[1];
 
-        x = screenW / 2 - bitmapDis.getWidth() / 2;
-        y = screenH / 2 - bitmapDis.getHeight() / 2;
+        x = screenW / 2 - bitmapSrc.getWidth() / 2;
+        y = screenH / 2 - bitmapSrc.getHeight() / 2;
     }
 
     private void initPaint() {
         mPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
     }
 
-    public DisInView(Context context, AttributeSet attrs, int defStyleAttr) {
+    public DstOutView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
     }
 
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
-        canvas.drawColor(Color.WHITE);
+//        canvas.drawColor(Color.WHITE);
 
         int sc = canvas.saveLayer(0, 0, screenW, screenH, null, Canvas.ALL_SAVE_FLAG);
 
-        canvas.drawBitmap(bitmapDis, x, y, mPaint);
+        canvas.drawColor(0xFF0080FF);
 
         mPaint.setXfermode(porterDuffXfermode);
 

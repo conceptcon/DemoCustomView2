@@ -19,8 +19,9 @@
         <activity android:name=".PorterDuffColorFilterActivity" />
         <activity
             android:name=".PorterDuffXfermodeActivity"
-            android:label="@string/title_activity_porter_duff_xfermode"></activity>
-        <activity android:name=".DST_IN_Activity"></activity>
+            android:label="@string/title_activity_porter_duff_xfermode" />
+        <activity android:name=".DST_IN_Activity" />
+        <activity android:name=".DST_OUT_Activity"></activity>
     </application>
 
 </manifest>

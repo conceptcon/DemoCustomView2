@@ -45,5 +45,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Button btn_dst_out_exercise = (Button) findViewById(R.id.btn_dst_out_exercise);
+        btn_dst_out_exercise.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, DST_OUT_Activity.class));
+            }
+        });
+
     }
 }
