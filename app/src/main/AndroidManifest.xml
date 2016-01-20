@@ -15,14 +15,36 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LightingColorFilterActivity" />
-        <activity android:name=".PorterDuffColorFilterActivity" />
+
+        <activity
+            android:name=".ColorMatrixFilterActivity"
+            android:label="Color Matrix Filter" />
+
+
+        <activity
+            android:name=".LightingColorFilterActivity"
+            android:label="Lighting Color Filter" />
+
+        <activity
+            android:name=".PorterDuffColorFilterActivity"
+            android:label="PORTER DUFF COLOR FILTER" />
+
         <activity
             android:name=".PorterDuffXfermodeActivity"
-            android:label="@string/title_activity_porter_duff_xfermode" />
-        <activity android:name=".DST_IN_Activity" />
-        <activity android:name=".DST_OUT_Activity" />
-        <activity android:name=".EraserActivity"></activity>
+            android:label="PORTER DUFF XFermode" />
+
+        <activity
+            android:name=".DST_IN_Activity"
+            android:label="DST IN EXERCISE" />
+
+        <activity
+            android:name=".DST_OUT_Activity"
+            android:label="DST OUT EXERCISE" />
+
+        <activity
+            android:name=".EraserActivity"
+            android:label="ERASER VIEW EXERCISE" />
+
     </application>
 
 </manifest>

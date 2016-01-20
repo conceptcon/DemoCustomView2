@@ -13,6 +13,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        Button btn_color_matrix_filter = (Button) findViewById(R.id.btn_color_matrix_filter);
+        btn_color_matrix_filter.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, ColorMatrixFilterActivity.class));
+            }
+        });
+
         Button btn_lighting_color_filter = (Button) findViewById(R.id.btn_lighting_color_filter);
         btn_lighting_color_filter.setOnClickListener(new View.OnClickListener() {
             @Override

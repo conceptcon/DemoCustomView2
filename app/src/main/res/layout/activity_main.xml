@@ -9,43 +9,59 @@
     android:paddingTop="@dimen/activity_vertical_margin">
 
     <Button
+        android:id="@+id/btn_color_matrix_filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+        android:text="Color Matrix Filter" />
+
+    <Button
         android:id="@+id/btn_lighting_color_filter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="10dp"
         android:text="Lighting Color Filter" />
 
     <Button
         android:id="@+id/btn_porter_duff_color_filter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="10dp"
         android:text="PORTER DUFF COLOR FILTER" />
 
     <Button
         android:id="@+id/btn_porter_duff_xfermode"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="10dp"
         android:text="PORTER DUFF XFermode" />
 
     <Button
         android:id="@+id/btn_dst_in_exercise"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="10dp"
         android:text="DST IN EXERCISE" />
 
     <Button
         android:id="@+id/btn_dst_out_exercise"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="DST out EXERCISE" />
+        android:layout_margin="5dp"
+        android:padding="10dp"
+        android:text="DST OUT EXERCISE" />
 
     <Button
         android:id="@+id/btn_eraser"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="10dp"
         android:text="ERASER VIEW EXERCISE" />
 
-    <com.example.leeyou.democustomview2.customView.CustomCircleView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Hello World!" />
 </LinearLayout>

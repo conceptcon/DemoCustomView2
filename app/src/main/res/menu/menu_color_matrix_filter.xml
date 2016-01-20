@@ -1,0 +1,40 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.leeyou.democustomview2.PorterDuffXfermodeActivity">
+    <item
+        android:id="@+id/action_1"
+        android:orderInCategory="100"
+        android:title="变暗效果"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_2"
+        android:orderInCategory="100"
+        android:title="变灰效果"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_3"
+        android:orderInCategory="100"
+        android:title="反相效果"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_4"
+        android:orderInCategory="100"
+        android:title="红、蓝色相互变换效果"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_5"
+        android:orderInCategory="100"
+        android:title="老旧照片效果"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_6"
+        android:orderInCategory="100"
+        android:title="去色后高对比度"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_7"
+        android:orderInCategory="100"
+        android:title="饱和度对比度加强"
+        app:showAsAction="never" />
+</menu>
