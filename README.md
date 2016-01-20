@@ -29,3 +29,11 @@ mPaint.setColorFilter(new PorterDuffColorFilter(Color.RED, PorterDuff.Mode.DARKE
 
 ![DST_IN美女练习前](https://github.com/LeeeYou/DemoCustomView2/blob/master/dst_in_%E7%BE%8E%E5%A5%B3%E7%BB%83%E4%B9%A0_%E5%89%8D.png)
 ![DST_IN美女练习后](https://github.com/LeeeYou/DemoCustomView2/blob/master/dst_in_%E7%BE%8E%E5%A5%B3%E7%BB%83%E4%B9%A0_%E5%90%8E.png)
+
+---
+
+###ERASER_VIEW练习
+
+利用Path绘制路径，采用DST_IN混合模式，完成橡皮擦效果
+
+![eraserview](https://github.com/LeeeYou/DemoCustomView2/blob/master/eraserview.png)
