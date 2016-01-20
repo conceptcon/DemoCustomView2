@@ -19,7 +19,7 @@ Demo中的各种示例均是在练习【aige】写的[文章](http://blog.csdn.n
 ![变灰](https://github.com/LeeeYou/DemoCustomView2/blob/master/effectPicture/colormatrix_%E5%8F%98%E7%81%B0.png)<br>
 ![反相效果](https://github.com/LeeeYou/DemoCustomView2/blob/master/effectPicture/colormatrix_%E5%8F%8D%E7%9B%B8.png)<br>
 ![红蓝色相互变换](https://github.com/LeeeYou/DemoCustomView2/blob/master/effectPicture/colormatrix_%E7%BA%A2%E8%93%9D%E8%89%B2%E4%BA%92%E7%9B%B8%E5%8F%98%E6%8D%A2.png)<br>
-![老照片效果](https://github.com/LeeeYou/DemoCustomView2/blob/master/effectPicture/lightcolorfilter.png)<br>
+![老照片效果](https://github.com/LeeeYou/DemoCustomView2/blob/master/effectPicture/colormatrix_%E8%80%81%E7%85%A7%E7%89%87.png)<br>
 ![去色后高度对比](https://github.com/LeeeYou/DemoCustomView2/blob/master/effectPicture/colormatrix_%E5%8E%BB%E8%89%B2%E5%90%8E%E9%AB%98%E5%BA%A6%E5%AF%B9%E6%AF%94.png)<br>
 ![饱和度对比度加强](https://github.com/LeeeYou/DemoCustomView2/blob/master/effectPicture/colormatrix_%E9%A5%B1%E5%92%8C%E5%BA%A6%E5%AF%B9%E6%AF%94%E5%BA%A6%E5%8A%A0%E5%BC%BA.png)<br>
 
