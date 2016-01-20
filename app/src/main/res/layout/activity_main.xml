@@ -38,6 +38,12 @@
         android:layout_height="wrap_content"
         android:text="DST out EXERCISE" />
 
+    <Button
+        android:id="@+id/btn_eraser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ERASER VIEW EXERCISE" />
+
     <com.example.leeyou.democustomview2.customView.CustomCircleView
         android:layout_width="match_parent"
         android:layout_height="match_parent"

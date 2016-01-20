@@ -53,5 +53,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Button btn_eraser = (Button) findViewById(R.id.btn_eraser);
+        btn_eraser.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, EraserActivity.class));
+            }
+        });
+
     }
 }
