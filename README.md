@@ -58,3 +58,8 @@ Demo中花了大量的篇幅练习和体会PorterDuffXfermode的强大，包括�
 
 ![eraserview](https://github.com/LeeeYou/DemoCustomView2/blob/master/eraserview.png)
 
+
+
+---
+
+最后感谢[【aige】](http://blog.csdn.net/aigestudio/article/details/41316141) 的高质量文章
