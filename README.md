@@ -35,13 +35,13 @@ mPaint.setColorFilter(new PorterDuffColorFilter(Color.RED, PorterDuff.Mode.DARKE
 
 ###5、PorterDuffXfermode
 
-这个是最重量级最重量级最重量级的东东了。ProterDuff是两个人名的组合: Tomas Proter和 Tom Duff. 他们是最早在SIGGRAPH上提出图形混合概念的大神级人物.有兴趣的童靴们可以自己查下并深入了解，在此不再做过多描述.
+这个是`最重量级 最重量级 最重量级`的东东了。ProterDuff是两个人名的组合: Tomas Proter和 Tom Duff. 他们是最早在SIGGRAPH上提出图形混合概念的大神级人物.有兴趣的童靴们可以自己查下并深入了解，在此不再做过多描述.
 
 PorterDuffXfermode是一个非常强大的转换模式，通过它，可以使用图像合成的16条Porter-Duff规则的任意一条来控制Paint如何与已有的Canvas图像进行交互。
 
 ![PorterDuffXfermode](https://github.com/LeeeYou/DemoCustomView2/blob/master/porterduffxfermode2.jpg)
 
-Demo中画了大量的篇幅练习和体会PorterDuffXfermode的强大，包括如下自定义view:
+Demo中花了大量的篇幅练习和体会PorterDuffXfermode的强大，包括如下自定义view:
 >
     PorterDuffView :基本练习
     DstInView：抠出美女轮廓
