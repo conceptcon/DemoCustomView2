@@ -15,13 +15,13 @@ Demo中的各种示例均是在练习【aige】写的[文章](http://blog.csdn.n
 
 色彩矩阵过滤器，利用它可以实现很多美图秀秀中的效果，比如：变灰、变暗、颜色反转、老照片、高度对比等
 
-![变暗](https://github.com/LeeeYou/DemoCustomView2/blob/master/effectPicture/colormatrix_%E5%8F%98%E6%9A%97.png)<br><br>
-![变灰](https://github.com/LeeeYou/DemoCustomView2/blob/master/effectPicture/colormatrix_%E5%8F%98%E7%81%B0.png)<br><br>
-![反相效果](https://github.com/LeeeYou/DemoCustomView2/blob/master/effectPicture/colormatrix_%E5%8F%8D%E7%9B%B8.png)<br><br>
-![红蓝色相互变换](https://github.com/LeeeYou/DemoCustomView2/blob/master/effectPicture/colormatrix_%E7%BA%A2%E8%93%9D%E8%89%B2%E4%BA%92%E7%9B%B8%E5%8F%98%E6%8D%A2.png)<br><br>
-![老照片效果](https://github.com/LeeeYou/DemoCustomView2/blob/master/effectPicture/colormatrix_%E8%80%81%E7%85%A7%E7%89%87.png)<br><br>
-![去色后高度对比](https://github.com/LeeeYou/DemoCustomView2/blob/master/effectPicture/colormatrix_%E5%8E%BB%E8%89%B2%E5%90%8E%E9%AB%98%E5%BA%A6%E5%AF%B9%E6%AF%94.png)<br><br>
-![饱和度对比度加强](https://github.com/LeeeYou/DemoCustomView2/blob/master/effectPicture/colormatrix_%E9%A5%B1%E5%92%8C%E5%BA%A6%E5%AF%B9%E6%AF%94%E5%BA%A6%E5%8A%A0%E5%BC%BA.png)<br><br>
+![变暗](https://github.com/LeeeYou/DemoCustomView2/blob/master/effectPicture/colormatrix_%E5%8F%98%E6%9A%97.png)
+![变灰](https://github.com/LeeeYou/DemoCustomView2/blob/master/effectPicture/colormatrix_%E5%8F%98%E7%81%B0.png)
+![反相效果](https://github.com/LeeeYou/DemoCustomView2/blob/master/effectPicture/colormatrix_%E5%8F%8D%E7%9B%B8.png)
+![红蓝色相互变换](https://github.com/LeeeYou/DemoCustomView2/blob/master/effectPicture/colormatrix_%E7%BA%A2%E8%93%9D%E8%89%B2%E4%BA%92%E7%9B%B8%E5%8F%98%E6%8D%A2.png)
+![老照片效果](https://github.com/LeeeYou/DemoCustomView2/blob/master/effectPicture/colormatrix_%E8%80%81%E7%85%A7%E7%89%87.png)
+![去色后高度对比](https://github.com/LeeeYou/DemoCustomView2/blob/master/effectPicture/colormatrix_%E5%8E%BB%E8%89%B2%E5%90%8E%E9%AB%98%E5%BA%A6%E5%AF%B9%E6%AF%94.png)
+![饱和度对比度加强](https://github.com/LeeeYou/DemoCustomView2/blob/master/effectPicture/colormatrix_%E9%A5%B1%E5%92%8C%E5%BA%A6%E5%AF%B9%E6%AF%94%E5%BA%A6%E5%8A%A0%E5%BC%BA.png)
 
 ###3、LightingColorFilter
 
