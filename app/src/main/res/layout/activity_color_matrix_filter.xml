@@ -12,7 +12,7 @@
         android:textSize="18dp"
         android:layout_height="wrap_content" />
 
-    <com.example.leeyou.democustomview2.customView.CustomCircleView
+    <com.example.leeyou.democustomview2.customView.ColorMatrixView
         android:id="@+id/customCircleView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

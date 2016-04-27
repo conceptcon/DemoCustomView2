@@ -15,14 +15,14 @@ import android.view.View;
 import com.example.leeyou.democustomview2.R;
 import com.example.leeyou.democustomview2.util.MeasureUtil;
 
-public class CustomCircleView extends View {
+public class ColorMatrixView extends View {
     private Paint mPaint;
     private Bitmap mBitmap;
     private Context context;
 
     private int x, y;
 
-    public CustomCircleView(Context context) {
+    public ColorMatrixView(Context context) {
         super(context);
 
         this.context = context;
@@ -38,7 +38,7 @@ public class CustomCircleView extends View {
         y = MeasureUtil.getScreenSize((Activity) context)[1] / 2 - mBitmap.getHeight() / 2;
     }
 
-    public CustomCircleView(Context context, AttributeSet attrs) {
+    public ColorMatrixView(Context context, AttributeSet attrs) {
         super(context, attrs);
 
         this.context = context;
@@ -47,7 +47,7 @@ public class CustomCircleView extends View {
         initRes();
     }
 
-    public CustomCircleView(Context context, AttributeSet attrs, int defStyleAttr) {
+    public ColorMatrixView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
 
         this.context = context;

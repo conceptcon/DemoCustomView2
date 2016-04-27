@@ -17,7 +17,6 @@ import com.example.leeyou.democustomview2.util.MeasureUtil;
 
 @TargetApi(Build.VERSION_CODES.HONEYCOMB)
 public class PorterDuffView extends View {
-    private PorterDuff.Mode mode = PorterDuff.Mode.ADD;
 
     private static final int RECT_SIZE_SMALL = 400;
     private static final int RECT_SIZE_BIG = 800;
@@ -43,6 +42,7 @@ public class PorterDuffView extends View {
 
         porterDuffBO = new PorterDuffBO();
 
+        PorterDuff.Mode mode = PorterDuff.Mode.ADD;
         porterDuffXfermode = new PorterDuffXfermode(mode);
 
         caculate(context);
@@ -83,11 +83,11 @@ public class PorterDuffView extends View {
 
         porterDuffBO.setSize(RECT_SIZE_BIG);
 
-        canvas.drawBitmap(porterDuffBO.initDisBitmap(), rectX, rectY, mPaint);
+        canvas.drawBitmap(porterDuffBO.initDisBitmap(), rectX, rectY, mPaint);//先绘制dst
 
         mPaint.setXfermode(porterDuffXfermode);
 
-        canvas.drawBitmap(porterDuffBO.initSrcBitmap(), rectX, rectY, mPaint);
+        canvas.drawBitmap(porterDuffBO.initSrcBitmap(), rectX, rectY, mPaint);//再绘制src
 
         mPaint.setXfermode(null);
 
@@ -98,4 +98,5 @@ public class PorterDuffView extends View {
         porterDuffXfermode = new PorterDuffXfermode(mode);
         invalidate();
     }
+
 }

@@ -6,10 +6,10 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
 
-import com.example.leeyou.democustomview2.customView.CustomCircleView;
+import com.example.leeyou.democustomview2.customView.ColorMatrixView;
 
 public class ColorMatrixFilterActivity extends AppCompatActivity {
-    CustomCircleView customCircleView;
+    ColorMatrixView customCircleView;
     TextView tv_desc;
 
     @Override
@@ -17,7 +17,7 @@ public class ColorMatrixFilterActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_color_matrix_filter);
 
-        customCircleView = (CustomCircleView) findViewById(R.id.customCircleView);
+        customCircleView = (ColorMatrixView) findViewById(R.id.customCircleView);
 
         tv_desc = (TextView) findViewById(R.id.tv_desc);
     }

@@ -30,7 +30,7 @@ public class DstInView extends View {
     public DstInView(Context context, AttributeSet attrs) {
         super(context, attrs);
 
-        porterDuffXfermode = new PorterDuffXfermode(PorterDuff.Mode.DST_IN);
+        porterDuffXfermode = new PorterDuffXfermode(PorterDuff.Mode.DST_IN);//只在原图和目标图相交的地方绘制目标图
 
         initPaint();
 
