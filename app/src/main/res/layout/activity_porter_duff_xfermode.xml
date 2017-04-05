@@ -1,15 +1,18 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.leeyou.democustomview2.PorterDuffXfermodeActivity">
+    android:padding="10dp">
 
     <TextView
         android:id="@+id/tv_desc"
         android:layout_width="match_parent"
-        android:textSize="14dp"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="图像混合模式"
+        android:textColor="#2d2d37"
+        android:textSize="14dp" />
 
     <com.example.leeyou.democustomview2.customView.PorterDuffView
         android:id="@+id/porterDuffView"

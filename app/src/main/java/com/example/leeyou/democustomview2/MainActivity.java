@@ -13,6 +13,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        setTitle("自定义控件之画笔");
+
         Button btn_color_matrix_filter = (Button) findViewById(R.id.btn_color_matrix_filter);
         btn_color_matrix_filter.setOnClickListener(new View.OnClickListener() {
             @Override

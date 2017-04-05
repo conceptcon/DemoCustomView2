@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">自定义控件之画笔练习</string>
+    <string name="app_name">画笔控件</string>
     <string name="title_activity_porter_duff_xfermode">PorterDuffXfermodeActivity</string>
 
     <string name="hello_world">Hello world!</string>
