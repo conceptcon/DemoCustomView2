@@ -14,7 +14,8 @@
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
         android:padding="10dp"
-        android:text="Color Matrix Filter" />
+        android:text="Color Matrix Filter"
+        android:textAllCaps="false" />
 
     <Button
         android:id="@+id/btn_lighting_color_filter"
@@ -22,7 +23,8 @@
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
         android:padding="10dp"
-        android:text="Lighting Color Filter" />
+        android:text="Lighting Color Filter"
+        android:textAllCaps="false" />
 
     <Button
         android:id="@+id/btn_porter_duff_color_filter"
@@ -30,7 +32,8 @@
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
         android:padding="10dp"
-        android:text="PORTER DUFF COLOR FILTER" />
+        android:text="Porter Duff Color Filter"
+        android:textAllCaps="false" />
 
     <Button
         android:id="@+id/btn_porter_duff_xfermode"
@@ -38,7 +41,8 @@
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
         android:padding="10dp"
-        android:text="PORTER DUFF XFermode" />
+        android:text="Porter Duff Xfermode"
+        android:textAllCaps="false" />
 
     <Button
         android:id="@+id/btn_dst_in_exercise"
@@ -46,7 +50,8 @@
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
         android:padding="10dp"
-        android:text="DST IN EXERCISE" />
+        android:text="Dst In Exercise"
+        android:textAllCaps="false" />
 
     <Button
         android:id="@+id/btn_dst_out_exercise"
@@ -54,7 +59,8 @@
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
         android:padding="10dp"
-        android:text="DST OUT EXERCISE" />
+        android:text="Dst Out Exercise"
+        android:textAllCaps="false" />
 
     <Button
         android:id="@+id/btn_eraser"
@@ -62,6 +68,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
         android:padding="10dp"
-        android:text="ERASER VIEW EXERCISE" />
+        android:text="Eraser View Exercise"
+        android:textAllCaps="false" />
 
 </LinearLayout>

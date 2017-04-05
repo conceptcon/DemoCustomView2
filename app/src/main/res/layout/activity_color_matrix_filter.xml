@@ -1,21 +1,24 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="10dp"
     android:orientation="vertical"
-    tools:context="com.example.leeyou.democustomview2.PorterDuffXfermodeActivity">
+    android:padding="10dp">
 
     <TextView
         android:id="@+id/tv_desc"
         android:layout_width="match_parent"
-        android:textSize="18dp"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="颜色矩阵过滤器实践"
+        android:textColor="#2d2d37"
+        android:textSize="16dp" />
 
     <com.example.leeyou.democustomview2.customView.ColorMatrixView
-        android:id="@+id/customCircleView"
+        android:id="@+id/colorMatrixView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#f2f2f2"
         android:text="Hello World!" />
 
 </LinearLayout>

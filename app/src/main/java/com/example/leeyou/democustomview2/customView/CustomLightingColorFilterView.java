@@ -31,7 +31,7 @@ public class CustomLightingColorFilterView extends View {
     }
 
     private void initRes() {
-        mBitmap = BitmapFactory.decodeResource(getResources(), R.mipmap.a);
+        mBitmap = BitmapFactory.decodeResource(getResources(), R.mipmap.color_matrix);
 
         x = MeasureUtil.getScreenSize((Activity) context)[0] / 2 - mBitmap.getWidth() / 2;
         y = MeasureUtil.getScreenSize((Activity) context)[1] / 2 - mBitmap.getHeight() / 2;

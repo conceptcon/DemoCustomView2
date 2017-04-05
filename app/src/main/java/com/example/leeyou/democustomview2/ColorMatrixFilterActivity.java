@@ -9,17 +9,16 @@ import android.widget.TextView;
 import com.example.leeyou.democustomview2.customView.ColorMatrixView;
 
 public class ColorMatrixFilterActivity extends AppCompatActivity {
-    ColorMatrixView customCircleView;
-    TextView tv_desc;
+    private ColorMatrixView mColorMatrixView;
+    private TextView mTv;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_color_matrix_filter);
 
-        customCircleView = (ColorMatrixView) findViewById(R.id.customCircleView);
-
-        tv_desc = (TextView) findViewById(R.id.tv_desc);
+        mColorMatrixView = (ColorMatrixView) findViewById(R.id.colorMatrixView);
+        mTv = (TextView) findViewById(R.id.tv_desc);
     }
 
     @Override
@@ -32,32 +31,32 @@ public class ColorMatrixFilterActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.action_1:
-                customCircleView.setColorMatrix(1);
-                tv_desc.setText("变暗效果");
+                mColorMatrixView.setColorMatrix(1);
+                mTv.setText("变暗效果");
                 break;
             case R.id.action_2:
-                customCircleView.setColorMatrix(2);
-                tv_desc.setText("变灰效果");
+                mColorMatrixView.setColorMatrix(2);
+                mTv.setText("变灰效果");
                 break;
             case R.id.action_3:
-                customCircleView.setColorMatrix(3);
-                tv_desc.setText("反相效果");
+                mColorMatrixView.setColorMatrix(3);
+                mTv.setText("反相效果");
                 break;
             case R.id.action_4:
-                customCircleView.setColorMatrix(4);
-                tv_desc.setText("红、蓝色相互变换效果");
+                mColorMatrixView.setColorMatrix(4);
+                mTv.setText("红、蓝色相互变换效果");
                 break;
             case R.id.action_5:
-                customCircleView.setColorMatrix(5);
-                tv_desc.setText("老旧照片效果");
+                mColorMatrixView.setColorMatrix(5);
+                mTv.setText("老旧照片效果");
                 break;
             case R.id.action_6:
-                customCircleView.setColorMatrix(6);
-                tv_desc.setText("去色后高对比度");
+                mColorMatrixView.setColorMatrix(6);
+                mTv.setText("去色后高对比度");
                 break;
             case R.id.action_7:
-                customCircleView.setColorMatrix(7);
-                tv_desc.setText("饱和度对比度加强");
+                mColorMatrixView.setColorMatrix(7);
+                mTv.setText("饱和度对比度加强");
                 break;
         }
         return super.onOptionsItemSelected(item);
