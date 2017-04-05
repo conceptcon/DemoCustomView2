@@ -62,17 +62,11 @@ public class DstInView extends View {
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
         canvas.drawColor(Color.WHITE);
-
         int sc = canvas.saveLayer(0, 0, screenW, screenH, null, Canvas.ALL_SAVE_FLAG);
-
-        canvas.drawBitmap(bitmapDis, x, y, mPaint);
-
+        canvas.drawBitmap(bitmapDis, x, y, mPaint);//画目标图像
         mPaint.setXfermode(porterDuffXfermode);
-
-        canvas.drawBitmap(bitmapSrc, x, y, mPaint);
-
+        canvas.drawBitmap(bitmapSrc, x, y, mPaint);//画源图像
         mPaint.setXfermode(null);
-
         canvas.restoreToCount(sc);
     }
 }

@@ -59,18 +59,11 @@ public class DstOutView extends View {
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
-//        canvas.drawColor(Color.WHITE);
-
         int sc = canvas.saveLayer(0, 0, screenW, screenH, null, Canvas.ALL_SAVE_FLAG);
-
-        canvas.drawColor(0xFF0080FF);
-
+        canvas.drawColor(0xFF0080FF); //画目标图像
         mPaint.setXfermode(porterDuffXfermode);
-
-        canvas.drawBitmap(bitmapSrc, x, y, mPaint);
-
+        canvas.drawBitmap(bitmapSrc, x, y, mPaint); //画原图
         mPaint.setXfermode(null);
-
         canvas.restoreToCount(sc);
     }
 }
