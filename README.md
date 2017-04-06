@@ -1,5 +1,4 @@
 # DemoCustomView2
----
 
 踉踉跄跄中，终于完成了对Paint各种效果的练习。
 
@@ -7,11 +6,11 @@
 
 Demo中的各种示例均是在练习【aige】写的[文章](http://blog.csdn.net/aigestudio/article/details/41316141)。下面简单罗列下Demo中涉及到的知识点：<br>
 
-###1、矩阵
+## 1、矩阵
 
 关于矩阵不清楚的童鞋可以转到[wiki](https://zh.wikipedia.org/wiki/%E7%9F%A9%E9%98%B5)
 
-###2、ColorMatrixColorFilter
+## 2、ColorMatrixColorFilter
 
 色彩矩阵过滤器，利用它可以实现很多美图秀秀中的效果，比如：变灰、变暗、颜色反转、老照片、高度对比等
 
@@ -23,7 +22,7 @@ Demo中的各种示例均是在练习【aige】写的[文章](http://blog.csdn.n
 ![去色后高度对比](https://github.com/LeeeYou/DemoCustomView2/blob/master/effectPicture/colormatrix_%E5%8E%BB%E8%89%B2%E5%90%8E%E9%AB%98%E5%BA%A6%E5%AF%B9%E6%AF%94.png)
 ![饱和度对比度加强](https://github.com/LeeeYou/DemoCustomView2/blob/master/effectPicture/colormatrix_%E9%A5%B1%E5%92%8C%E5%BA%A6%E5%AF%B9%E6%AF%94%E5%BA%A6%E5%8A%A0%E5%BC%BA.png)
 
-###3、LightingColorFilter
+## 3、LightingColorFilter
 
 `光照颜色过滤器，利用它可以实现的效果就像有色光照在物体上染色一样`
 
@@ -33,7 +32,7 @@ mPaint.setColorFilter(new LightingColorFilter(0xFFFF00FF, 0x00000000));
 ![lightcolorfilter](https://github.com/LeeeYou/DemoCustomView2/blob/master/effectPicture/lightcolorfilter.png)
 
 
-###4、PorterDuffColorFilter
+## 4、PorterDuffColorFilter
 
 `混合颜色过滤器，可以通过指定一个颜色和一种模式，进行混合从而产生相应的效果`
 
@@ -43,7 +42,7 @@ mPaint.setColorFilter(new PorterDuffColorFilter(Color.RED, PorterDuff.Mode.DARKE
 ![porterduffcolorfilter](https://github.com/LeeeYou/DemoCustomView2/blob/master/effectPicture/porterduffcolorfilter.png)
 
 
-###5、PorterDuffXfermode
+## 5、PorterDuffXfermode
 
 这个是`最重量级 最重量级 最重量级`的东东了。ProterDuff是两个人名的组合: Tomas Proter和 Tom Duff. 他们是最早在SIGGRAPH上提出图形混合概念的大神级人物.有兴趣的童靴们可以自己查下并深入了解，在此不再做过多描述.
 
